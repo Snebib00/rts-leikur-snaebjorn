@@ -53,7 +53,7 @@ const loader = {
 
         loader.loadedcount++;
 
-        document.getElementById("loadingmessage").innerHTML = "loaded" + loader.loadedcount + " of " + loader.totalcount;
+        document.getElementById("loadingMessage").innerHTML = "loaded" + loader.loadedcount + " of " + loader.totalcount;
 
         if (loader.loadedcount === loader.totalcount) {
 
